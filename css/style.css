@@ -1,0 +1,182 @@
+html {
+    color:rgb(0, 0, 0)
+}
+
+
+body {
+    border: 0px;
+  text-align: center;
+  padding: -15px
+}
+
+
+
+header {
+    text-align: center;
+   }
+
+
+h1 {
+    text-align: left;
+    color: black;}
+
+
+
+
+nav ul li {
+    margin: 20px;
+    display:inline-block;
+}
+
+ul {margin: 40px;}
+
+nav {
+    background-color: #8600C4;
+}
+
+
+nav ul li  {
+    color: black;
+}
+
+
+nav ul a {
+    color: black;
+}
+
+
+
+
+h1, #logo {
+    display: inline-block;
+}
+
+
+#logo {
+    width: 95px;
+    float: left;
+}
+
+
+h1 {
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+section {
+    padding:30px;
+    margin: 5px;
+}
+
+#section1 {padding: 10px}
+
+
+
+#section2, #section3, #section4 {
+            text-align: center;
+            display: inline-block;
+}
+
+
+
+
+#filtri p {border: 2px solid #8600C4;
+    padding: 20px;}
+
+#filtri {padding:0px}    
+
+#section2 {border: 2px solid #8600C4;
+    padding: 20px;}
+
+#barra, p {
+    display: inline-block;
+}
+
+
+
+
+.active {
+    color: rgb(238, 130, 238);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px ;
+}
+
+
+.nounderline {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+
+.whitelink {
+    color: white
+}
+
+
+
+
+header {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+   
+body  {
+    font-family: 'Roboto', sans-serif;
+}  /* questo è il font che ho scelto e l'ho messo per tutto il corpo testo*/
+
+
+.aggiungere {
+    cursor: cell;
+    
+}
+
+
+footer {
+    text-align: center;
+}
+
+.card {
+    border: #8600C4;
+    margin: #8600C4;
+    width: 400px;
+}
+
+
+.aggiungere {
+    cursor: cell;
+}
+
+
+
+
+a:link {
+    color: blue;
+}
+
+
+
+
+a:hover {
+    font-style: bold;
+}
+
+.inserisci { 
+    border-radius: 10px 10px 10px 10px ;
+    background-color: rgb(240, 159, 240);
+    
+    
+}
+
+
