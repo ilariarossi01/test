@@ -161,10 +161,12 @@ footer {
 
 
 
-a:link {
-    color: blue;
-}
+.container-fluid {
+    columns: lg -4px;
+    columns: md -2px;
+columns: sm -1px;
 
+}
 
 
 
