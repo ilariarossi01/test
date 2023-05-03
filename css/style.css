@@ -6,8 +6,10 @@ html {
 body {
     border: 0px;
   text-align: center;
-  padding: -15px
+  padding: -15px;
+  font-family: 'Lora', serif;
 }
+
 
 
 
@@ -63,6 +65,9 @@ h1 {
     font-family: 'Orbitron', sans-serif;
 }
 
+h2 {float: center;
+    font-family: 'Orbitron', sans-serif;
+}
 
 
 
@@ -88,7 +93,7 @@ section {
 
 #filtri {padding:0px}    
 
-#section2 {border: 2px solid #8600C4;
+#section2 {border: 5px solid #8600C4;
     padding: 20px;}
 
 #barra, p {
@@ -186,3 +191,4 @@ a:hover {
 
 #disegno6 {width: 220px;}
 
+body {font-family: 'Lora', serif;}
