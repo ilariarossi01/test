@@ -1,0 +1,123 @@
+html {
+    color:rgb(0, 0, 0)
+}
+
+body {
+    border: 0px;
+  text-align: center;
+  padding: -15px
+}
+
+
+  header { 
+    text-align: center;
+   }
+
+h1 {
+    text-align: left;
+    color: black;
+}
+
+
+nav ul li {
+    margin: 20px;
+    display:inline-block;
+}
+
+nav {
+    background-color: #8600c4;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+nav ul li  {
+    color: black;
+}
+
+nav ul a { 
+    color: black;
+}
+
+
+h1, #logo { 
+    display: inline-block;
+}
+
+#logo {
+    width: 94px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+section {
+    padding:30px;
+    margin: 5px;
+}
+
+
+.active {
+    color:rgb(238, 130, 238);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px ;
+}
+
+.nounderline {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px; 
+}
+
+
+.whitelink {
+    color: white
+}
+
+
+.aggiungere {
+        cursor: crosshair;
+    }
+
+.testo {
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+     h4 , .autori {
+        text-align: center;
+    }
+
+    
+
+    .inserisci { 
+        border-radius: 10px 10px 10px 10px ;
+        background-color: rgb(240, 159, 240);
+        padding: 10px;
+    }
+
+    #singolo {
+        width: 200px;
+    }
+
+    .colonna {
+        height: 580px;
+    }
+    
+
+.col-3 {
+      min-width: 350px ;
+      margin: 15px;
+}
+
+#disegno3 { 
+    width: 350px;
+    margin-left: 150px;
+}
+
+#disegno4 { 
+    width: 330px;
+}

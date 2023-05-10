@@ -7,74 +7,77 @@ body {
     border: 0px;
   text-align: center;
   padding: -15px;
-  font-family: 'Lora', serif;
-}
-
-
+  font-family: 'Lora', serif; 
+background-color: white ; 
+font-size: 18px; }
 
 
 header {
-    text-align: center;
-   }
+    text-align: center;}
 
 
-h1 {
-    text-align: left;
+h1 {text-align: left;
+    color: black;}
+
+nav ul li {margin: 20px;
+    display:inline-block;}
+
+
+
+.navprefe {
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 50px;
+}
+
+.navdoc {
+    margin-top: 5spx
+}
+
+nav {background-color: #8600C4;
+margin-left: none;
+margin-right: none;}
+
+
+nav ul li  {color: black;}
+
+
+nav ul a {
     color: black;}
 
 
 
-
-nav ul li {
-    margin: 20px;
-    display:inline-block;
-}
-
-ul {margin: 40px;}
-
-nav {
-    background-color: #8600C4;
-}
-
-
-nav ul li  {
-    color: black;
-}
-
-
-nav ul a {
-    color: black;
-}
-
-
-
-
 h1, #logo {
-    display: inline-block;
-}
+    display: inline-block;}
 
 
 #logo {
     width: 95px;
-    float: left;
-}
+    float: left;}
 
 
-h1 {
-    float: left;
-    font-family: 'Orbitron', sans-serif;
-}
+h1 {float: left;
+    font-family: 'Orbitron', sans-serif;}
 
 h2 {float: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;}
+
+
+h3 {
+    color:#8600C4
 }
 
-
-
-section {
-    padding:30px;
-    margin: 5px;
+h4 {
+    color:rgb(238, 130, 238);
+    font-style: bold;
 }
+
+.bodydoc {
+    text-align: left;
+}
+section {padding:30px;
+    margin: 5px;}
+
 
 #section1 {padding: 10px}
 
@@ -86,17 +89,18 @@ section {
 }
 
 
-
-
 #filtri p {border: 2px solid #8600C4;
     padding: 20px;}
 
+
 #filtri {padding:0px}    
+
 
 #section2 {border: 5px solid #8600C4;
     padding: 20px;}
 
-#barra, p {
+
+#barra {
     display: inline-block;
 }
 
@@ -138,12 +142,12 @@ body {
 }
    
 body  {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
 }  /* questo è il font che ho scelto e l'ho messo per tutto il corpo testo*/
 
 
 .aggiungere {
-    cursor: cell;
+    cursor: crosshair;
     
 }
 
@@ -152,30 +156,13 @@ footer {
     text-align: center;
 }
 
-.card {
-    border: #8600C4;
-    margin: #8600C4;
-    width: 400px;
-}
 
-
-.aggiungere {
-    cursor: cell;
-}
-
-
-
-
-
-
-a:hover {
-    font-style: bold;
-}
 
 .inserisci { 
     border-radius: 10px 10px 10px 10px ;
     background-color: rgb(240, 159, 240);
-    padding: 10px;
+    padding: 5px;
+    font-family: 'Lora', sans-serif;
     
 }
 
@@ -191,4 +178,57 @@ a:hover {
 
 #disegno6 {width: 220px;}
 
+#alberosito {
+    width: 450px;
+}
+#Wireframe  {
+    width: 100px;
+   
+}
+
 body {font-family: 'Lora', serif;}
+
+
+a:hover{
+    color: rgb(238, 130, 238);
+    text-decoration: none;
+
+}
+
+
+
+body {text-align: center;
+background-color: white  !important ;}
+
+.bg-primary {
+    background-color: white !important ;
+}
+
+.testo {
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+     h4 , .autori {
+        text-align: center;
+    }
+
+    
+
+   
+
+    #singolo {
+        width: 200px;
+    }
+
+    .colonna {
+        height: 580px;
+    }
+    
+
+.col-3 {
+      min-width: 350px ;
+      margin: 15px;
+}
+

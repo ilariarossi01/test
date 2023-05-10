@@ -1,21 +1,46 @@
 nav ul a {
     color: black;
+    font-family: 'Lora', sans-serif;
 }
 
+body { 
+    font-family: 'Lora', sans-serif;;
+}
+
+
+h1 {
+    
+    color : black;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+
+nav  ul  li {
+    margin :  20px ;
+    display : inline-block;
+    color : black;
+    
+    
+}
+
+
+
+nav {
+    background-color:  #8600C4 ;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+#logo {
+    width: 94px;
+    float: left;
+}
 
 h1, #logo {
     display: inline-block;
 }
-
-
-
-
-#logo {
-    width: 95px;
-    float: left;
-}
-
-
 .nounderline {
     text-decoration: none;
     padding: 10px 10px 10px 10px;
@@ -23,12 +48,9 @@ h1, #logo {
 
 
 
-
 .whitelink {
     color: white
 }
-
-
 
 
 h2, h3, h4 {
@@ -55,4 +77,18 @@ button {
 footer {
     text-align: center;
 }
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#disegno2 {width: 400px;
+float: center;
+}
+
+
+#disegno6 {width: 220px;
+float: center;
+margin-left: 350px;}
 
