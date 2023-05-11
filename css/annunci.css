@@ -108,8 +108,9 @@ section {
         
     }
 
-    #singolo {
+    #singolo, #duo {
         width: 200px;
+        margin-left: 60px;
     }
 
     .colonna {
