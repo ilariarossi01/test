@@ -4,14 +4,16 @@ nav ul a {
 }
 
 body { 
-    font-family: 'Lora', sans-serif;;
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
 }
 
 
 h1 {
-    
     color : black;
     font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
     
 }
 
@@ -20,6 +22,7 @@ nav  ul  li {
     margin :  20px ;
     display : inline-block;
     color : black;
+
     
     
 }
@@ -28,14 +31,14 @@ nav  ul  li {
 
 nav {
     background-color:  #8600C4 ;
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
 }
 
 
 #logo {
     width: 94px;
-    float: left;
+    
 }
 
 h1, #logo {
@@ -47,7 +50,13 @@ h1, #logo {
 }
 
 
+.inserisci-email, .inserisci-password {
+    font-size: 20px;
+}
 
+.inserisci-email{
+    margin-top: 10px;
+}
 .whitelink {
     color: white
 }
@@ -67,7 +76,11 @@ h2, h3, h4 {
     text-align: center !important;
 }
 
-
+.registrazione {
+    margin-top: 50px;
+    border-color: rgb(238, 130, 238);
+    padding: white;
+}
 
 button {
     text-align: center;
@@ -78,17 +91,24 @@ footer {
     text-align: center;
 }
 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
+
 
 #disegno2 {width: 400px;
 float: center;
 }
 
 
-#disegno6 {width: 220px;
+#disegno6 {width: 210px;
 float: center;
 margin-left: 350px;}
 
+
+a:hover{
+    color: rgb(238, 130, 238);
+    text-decoration: none;
+
+}
+
+a {
+    color:black
+}

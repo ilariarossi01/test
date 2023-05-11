@@ -39,20 +39,26 @@ nav ul a {
 }
 
 
-h1, #logo { 
+h1, #logo1 { 
     display: inline-block;
 }
 
-#logo {
+#logo1 {
     width: 94px;
     float: left;
+
 }
 
 h1 {
     float: left;
     font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
 }
 
+h3 {
+    color: #8600c4
+}
 
 section {
     padding:30px;
@@ -87,7 +93,7 @@ section {
 }
 
 
-     h4 , .autori {
+     h6 , .autori {
         text-align: center;
     }
 
@@ -95,8 +101,11 @@ section {
 
     .inserisci { 
         border-radius: 10px 10px 10px 10px ;
-        background-color: rgb(240, 159, 240);
-        padding: 10px;
+        background-color: rgb(238, 130, 238);
+        padding: 5px;
+        font-family: 'Lora', sans-serif;
+        font-size: 14px
+        
     }
 
     #singolo {
@@ -104,7 +113,7 @@ section {
     }
 
     .colonna {
-        height: 580px;
+        height: 605px;
     }
     
 
@@ -115,9 +124,31 @@ section {
 
 #disegno3 { 
     width: 350px;
-    margin-left: 150px;
+   
 }
 
 #disegno4 { 
     width: 330px;
+}
+
+body {text-align: center;
+    background-color: white  !important ;
+    font-size: 18px;
+    font-family: 'Lora', sans-serif;
+}
+    
+.bg-primary {
+        background-color: white !important ;
+        font-size: 18px;
+    }
+
+
+ a:hover{
+        color: rgb(238, 130, 238);
+        text-decoration: none;}
+
+a { color:black}
+    
+footer {
+    margin-top: 100px;
 }

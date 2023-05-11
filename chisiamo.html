@@ -10,6 +10,9 @@
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
       <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet"> 
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <link rel ="stylesheet" href="css/style.css">
    </head>
 
@@ -33,28 +36,29 @@
 
         <body class="bodydoc">
             
-        
-        <section>
-           <h3>ABSTRACT:</h3> 
-           l'idea nasce perchè abbiamo conosciuto e frequentiamo molti giovani artisti del settore Musicale
-           che non riescono a farsi conoscere e vorrebbero tanto esibirsi live per far diventare della loro passione
-           un vero e proprio lavoro. LiveMusic vuole essere un punto di riferimento per tutti coloro che hanno lo stesso desiderio.
-           
+        <h3 class="titolodoc">PROJECT MANAGMENT PLAN</h3>
+
+        <section class="doc">
+           <h3>0. ABSTRACT:</h3> 
+           L'idea nasce perchè abbiamo conosciuto e frequentiamo molti giovani artisti del settore musicale,
+           che non riescono a farsi conoscere, e vorrebbero tanto esibirsi live per far diventare della loro passione
+           un vero e proprio lavoro.  Anche perchè non tutti hanno l'opportunità di partecipare a TalentShow televisivi come Amici o XFactor.
+           LiveMusic vuole essere un punto di riferimento per tutti coloro che hanno lo stesso desiderio. 
         </section>
-        <Section>
-           <h3> BENCHMARKING:</h3>
+        <Section class="doc">
+           <h3> 1. BENCHMARKING:</h3>
            <p>
-           <b> Obiettivi:</b> offrire un servizio per artisti che volgiono farsi conoscere
+           <b> Obiettivi:</b> offrire un servizio per artisti che vogliono farsi conoscere
             e suonare la loro musica live; e per locali che vorrebbero organizzare
-            eventi trovando qualcuno che fa al caso loro.
+            eventi trovando nuove voci che possono fare al caso loro.
            </p>
            <p>
           <b> Target utente:</b>  giovani artisti (under 30), organizzatori di eventi e proprietari di locali.
            </p>
            <p>
           <b> Competitor: </b> <br>
-            - <u> Musiqua</u> è un sito che permette di cercare soprattutto band e dj per eventi
-            (matrimoni,feste di compleanno, concerti, ecc.).  <br>
+            - <u> Musiqua</u> è un sito che permette di cercare soprattutto band e dj per eventi come
+            matrimoni, feste di compleanno, concerti, ecc.  <br>
             -  <u>Villaggio Musicale</u>  è un sito di annunci dove musicisti e/o cantanti
             cercano altri artisti del settore (Per esempio: band che cerca un bassista; 
             "Cerco pianista a Rovigo"; ecc.).  <br>
@@ -62,79 +66,179 @@
             e guide scritte. 
            </p>
         </Section>
-        <Section>
-           <h3> STRUTTURA e LAYOUT:</h3>
-           <p>
-           <b> Architettura del sito:</b>  <br>
-            <img id="alberosito" src="img/albero.png" alt="alberosito">
-           </p>
-           <p>
-           <b> Wireframe:</b> <br>
-           <p>
-            Legenda del colori: <br>
-            - Rosso = Header <br>
+        <Section class="doc">
+           <h3> 2. STRUTTURA e LAYOUT:</h3>
+           <div class="responsive1">
+            <div class="gallery">
+           <a target="_blank" href="img/albero.png">
+            <img src="img/albero.png" alt="albero" width="400" height="300">
+          </a>
+          <div class="desc"> <b> Architettura del sito</b></div>
+    </div>
+  </div>
+         </section> 
+     
+           <p class="legenda"> <b> Wireframe:</b> <br>
+           <u> Legenda dei colori: </u> <br>
+            - Rosso = Titolo, Logo e Bottone "inserisci annuncio"<br>
             - Verde = Nav <br>
+            - Rosso + Verde = Header <br>
             - Azzurro = Body <br>
             - Giallo = Section <br>
             - Blu = Testo <br>
             - Grigio = Immagine <br>
             - Fucsia = Footer <br>
-            - Viola = Bottone <br> 
+            - Viola = Bottone (Wireframe del singolo Annuncio) <br>
+            <style>
+              .legenda {
+                margin-left: 20px;
+              }
+            </style> 
            </p>
-           1. Wireframe Homepage: <br>
-           <img id="Wireframe" src="img/Wireframe Homepage.jpeg" alt="wireframeHomepage"> <br>
-           2. Wireframe Annunci: <br>
-           <img id="Wireframe" src="img/Wireframe Annunci.jpeg" alt="wireframeAnnunci"> <br>
-           3. Wireframe del Singolo Annuncio: <br>
-           <img id="Wireframe" src="img/Wireframe Singolo Annuncio.jpeg" alt="wireframeSingoloannuncio"> <br>
-           4. Wireframe Cerca: <br>
-           <img id="Wireframe" src="img/Wireframe Cerca.jpeg" alt="wireframeCerca"> <br>
-           5. Wireframe Preferiti: <br>
-           <img id="Wireframe" src="img/Wireframe Preferiti.jpeg" alt="wireframePreferiti"> <br>
-           6. Wireframe Documentazione: <br>
-           <img id="Wireframe" src="img/Wireframe Documentazione.jpeg" alt="wireframeDocumentazione"> <br>
-           7. Wireframe Aggiungi Annuncio <br>
-           <img id="Wireframe" src="img/Wireframe Aggiungi Annuncio.jpeg" alt="wireframeAggAnnuncio"> <br>
-           </p>
-           <p>
+          
+           <div class="responsive">
+            <div class="gallery">  
+      <a target="_blank" href="img/Wireframe Homepage.jpeg">
+        <img src="img/Wireframe Homepage.jpeg" alt="wireframe homepage" width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Homepage</div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Wireframe Annunci.jpeg"> 
+        <img src="img/Wireframe Annunci.jpeg" alt="wireframe annunci" width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Annunci</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Wireframe Singolo Annuncio.jpeg">
+        <img src="img/Wireframe Singolo Annuncio.jpeg" alt="wireframe singolo annuncio" width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Singolo Annuncio</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Wireframe Aggiungi Annuncio.jpeg">
+        <img src="img/Wireframe Aggiungi Annuncio.jpeg" alt="wireframe aggiungi annuncio " width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Aggiungi Annuncio</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Wireframe Cerca.jpeg">
+        <img src="img/Wireframe Cerca.jpeg" alt="wireframe cerca" width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Cerca</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Wireframe Preferiti.jpeg">
+        <img src="img/Wireframe Preferiti.jpeg" alt="wireframe preferiti" width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Preferiti</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Wireframe Documentazione.jpeg">
+        <img src="img/Wireframe Documentazione.jpeg" alt="wireframe documentazione" width="600" height="400">
+      </a>
+      <div class="desc">Wireframe Documentazione</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+  
+  <div style="padding:6px;">
+
+           <p class="legenda">
            <b> Look and Feel:</b> <br>
-            - Scelta dei Font: Orbitron (san-serif) per il titolo e Lora corsivo (serif) per il corpo testo. <br>
-            - Scelta dei colori: MANCA <br>
-            - Altre scelte grafiche: abbiamo creato il logo e inserito prima del footer elementi grafici a tema music riprendendo
-            gli stessi colori utilizzati nel resto del sito. <br>
-            Le scelte sono state fatte in funzione di rendere tutto più coerente e coeso. 
+            -  <u> Scelta dei Font:</u> Orbitron (san-serif) per il titolo e Lora corsivo (serif) per il corpo testo. <br>
+            - <u> Scelta dei colori:</u> abbiamo scelto di accostare un viola (rgb: 134,0,1 ) e un rosa (rgb: 238,150,238 ) abbastanza vivaci per dare un tocco di femminilità al sito, dato che a crearlo siamo due ragazze.<br>
+            - <u> Altre scelte grafiche:</u> abbiamo creato il logo e inserito prima del footer elementi grafici a tema musicale riprendendo
+            gli stessi colori utilizzati in tutto il sito. <br>
+            Le scelte sono state fatte per rendere il sito coerente e coeso. 
            </p>
 
 
 
         </Section>
         
-        <Section>
-            <h3> LINGUAGGI e STRUMENTI:</h3>
-          <p> <b> Linguaggi:</b>  Html, Css e Javascript </p>
+        <Section class="doc">
+            <h3> 3. LINGUAGGI e STRUMENTI:</h3>
+          <p> <b> Linguaggi:</b>  Html e Css </p>
           <p>  <b> Strumenti:</b> <br>
-            - Visual Studio COde per la trascirizione del codice <br> 
-            - Google Font: per i font del testo <br>
-            - Fontaewsome: per le icone <br>
-            - Canva: perla creazione del logo e delle grafiche prima del piè di pagina <br>
-            - Paint: per la creazione dei WIreframe  <br>
-            - Word: per la creazione del disegno ad albero <br>
-            - Pexels: per inserire immagini senza licenza <br>
-            - bootstrap <br>
-            - Google Analytics: per monitorare le visite al sito <br>
-            - GitHub: per la pubblicazione
+            - <u>Visual Studio Code:</u>  per la trascirizione del codice. <br> 
+            - <u> Google Font:</u> per la scelta dei font. <br>
+            - <u> Fontawesome:</u> per le icone. <br>
+            - <u> Canva:</u> per la creazione del logo, delle grafiche prima del piè di pagina, e anche per il post e la story di Instagram.<br>
+            - <u> Word:</u> per la creazione del disegno ad albero. <br>
+            - <u> Pexels:</u> per inserire immagini senza licenza. <br>
+            - <u>Adobe Color:</u> per trovare il giusto accostamento di colori. <br>
+            - <u>Adobe Express:</u>  per la realizzazione dei Wireframe. <br>
+            - <u> Bootstrap: </u>per la creazione di bottoni e la realizzazione della pagina degli Annunci. <br>
+            - <u> Google Analytics:</u> per monitorare le visite al sito.<br>
+            - <u> GitHub:</u> per la pubblicazione del sito.
         </p>
         </Section>
+<h3 class="titolodoc">COMMUNICATION STRATEGY DOCUMENT</h3>
+    <section class="doc">
+         <h3>1. BACKGROUND:</h3>
+         Dopo aver svolto una ricerca sui competitor abbiamo stabilito che: <br>
+        <u>Musiqua </u> permette di effettuare una ricerca circoscritta a professionisti del settore e questi spesso esplicitano
+         il compenso desiderato; <br>
+        <u> Villaggio Musicale</u> ha una homepage piena di elementi e input che, a parer nostro, distraggono l'utente;<br>
+        <u>Kleisma.com</u> non è un sito circoscritto a soli annunci ma offre anche servizi di ricerca 
+        di insegnanti e videotutorial. <br>
+        In base a quanto sopra riportato, il nosto sito si concentra solo su annunci per artisti che hanno bisogno di 
+        una piattaforma dove farsi conoscere. Può essere consultabile anche da proprietari di locali
+        e organizzatori di eventi. 
+        Quando un'artista pubblica i suoi annunci gratuitamente può inserire l'url al proprio canale YouTube o Spotify.
+        Infine abbiamo mantenuto il sito il più coerente, pulito e semplice possibile affinchè l'utente non si distragga e abbia chiaro come
+        usarlo.
+ </section>
+<section class="doc">
+  <h3>2. OBIETTIVI COMUNICATIVI:</h3>
+  Creare un'area utile e di supporto per coloro che desiderano esporsi, nel quale possono pubblicare annunci in modo gratuito. 
+  Il modo migliore per diffondere il nostro sito è il social network Instagram perchè viene 
+  usato da utenti under 30 che rispettano il nostro target. Dopo aver effettuato una ricerca abbiamo stabilito che al giorno d'oggi 
+  anche i locali hanno un loro profilo Instagram.
+</section>
+<section class="doc">
+  <h3>3. TARGET AUDIENCE:</h3>
+  Il nostro target sono i giovani dai 17 ai 30 anni e i proprieari di locali che organizzano
+  eventi. Entrambi vengono a conoscenza della piattaforma tramite Instagram e il passaparola su Whatsapp. <br>
+  Il messaggio che vogliamo trasmettere al nostro pubblico è: per noi è importante che i giovani artisti abbiano l'opportunità
+  di fare esperienza tramite esibizioni live in diversi locali. I quali verranno contattati grazie alla nostra piattaforma. 
+</section>
+<section class="doc">
+  <h3>4. PROMOZIONE:</h3>
+  Tramite post e storie sui nostri profili Instangram personali e su Whatsapp. <br>
+   <u> Obiettivi:</u> <br>
+  -50 Like al post <br>
+  -50 visual alle storie <br>
+  -70 visite al sito
+</section>
 
-
-
+<section class="doc">
+  <h3>5. VALUTAZIONE dei RISULTATI:</h3>
+  METTI SCREEEN
+</section>
 
             
-            <section  class="img" >
-                <img id="disegno5" src="img/5.png" alt="ballerinidisegno"> 
-                <img id="disegno6" src="img/6.png" alt="musicistidisegno">
-            </section> 
-
             
         </body>
 

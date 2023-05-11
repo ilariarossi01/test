@@ -53,7 +53,10 @@ h1, #logo {
 
 #logo {
     width: 95px;
-    float: left;}
+    float: left;
+}
+
+
 
 
 h1 {float: left;
@@ -64,16 +67,18 @@ h2 {float: center;
 
 
 h3 {
-    color:#8600C4
+    color:#8600C4;
+ 
 }
 
-h4 {
-    color:rgb(238, 130, 238);
-    font-style: bold;
-}
+
 
 .bodydoc {
     text-align: left;
+}
+
+.doc {
+    padding: 15px
 }
 section {padding:30px;
     margin: 5px;}
@@ -121,7 +126,9 @@ section {padding:30px;
 }
 
 
+a { color:black
 
+}
 
 .whitelink {
     color: white
@@ -148,6 +155,7 @@ body  {
 
 .aggiungere {
     cursor: crosshair;
+ 
     
 }
 
@@ -160,9 +168,10 @@ footer {
 
 .inserisci { 
     border-radius: 10px 10px 10px 10px ;
-    background-color: rgb(240, 159, 240);
+    background-color: rgb(238, 130, 238);
     padding: 5px;
     font-family: 'Lora', sans-serif;
+    font-size: 14px
     
 }
 
@@ -181,10 +190,7 @@ footer {
 #alberosito {
     width: 450px;
 }
-#Wireframe  {
-    width: 100px;
-   
-}
+
 
 body {font-family: 'Lora', serif;}
 
@@ -195,40 +201,70 @@ a:hover{
 
 }
 
-
-
-body {text-align: center;
-background-color: white  !important ;}
-
-.bg-primary {
-    background-color: white !important ;
-}
-
-.testo {
+.titolodoc {
     text-align: center;
-    margin-top: 250px;
+   }
+
+
+   div.gallery {
+    border: 1px solid #ccc;
+    width: 170px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
 }
 
 
-     h4 , .autori {
-        text-align: center;
-    }
+div.gallery:hover {
+  border: 1px solid rgb(238, 130, 238);
+}
 
-    
+div.gallery img {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 35px;
+}
 
-   
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
-    #singolo {
-        width: 200px;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .colonna {
-        height: 580px;
-    }
-    
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 
-.col-3 {
-      min-width: 350px ;
-      margin: 15px;
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn-btn-success {
+    border-color: rgb(238, 130, 238);
+}
+
+footer {
+    margin-top: 100px;
 }
 
